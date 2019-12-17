@@ -9,7 +9,7 @@ body {
 
 header {
 	background-color: #5e7de3;
-	padding: 300px;
+	padding: 200px;
 	text-align: center;
 	font-size: 45px;
 	color: white;
@@ -17,4 +17,22 @@ header {
 section {
 	display: -webkit-flex;
 	display: flex;
+}
+
+h1{
+	color: white;
+}
+
+nav {-webkit-flex: 1;
+	-ms-flex: 1;flex: 1;
+  	background: #3a5379;
+  	padding: 50px;
+  	font-size: 3rem;
+ }
+
+footer {
+	background-color:#5e7de3;
+	padding:10px;
+	text-align: center; 
+	color: white;
 }
