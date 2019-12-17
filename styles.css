@@ -15,7 +15,7 @@ header
 	padding: 200px;
 	text-align: center;
 	font-size: 45px;
-	color: white;
+	color: #ffff;
 }
 section 
 {
@@ -25,13 +25,13 @@ section
 
 h1
 {
-	color: white;
+	color: #ffff;
 }
 
 nav 
 {-webkit-flex: 1;
 	-ms-flex: 1;flex: 1;
-  	background: #3a5379;
+  	background: darkcyan;
   	padding: 50px;
   	font-size: 3rem;
  }
@@ -41,7 +41,7 @@ footer
 	background-color:#5e7de3;
 	padding:10px;
 	text-align: center; 
-	color: white;
+	color: #ffff;
 }
 
 @media (max-width: 600px) 
@@ -65,12 +65,13 @@ footer
 
 .rig 
 {
-	width: 130px; height: 70px;
-	background: #3a5379;
+	width: 100px; 
+	height: 70px;
+	background: darkcyan;
 	-webkit-transition: width 1s; 
   	transition: width 1s;
   	font-size: 1.5rem; 
-  	color: #3a5379;
+  	color: darkcyan;
 }
 
 .rig:hover 
@@ -79,7 +80,7 @@ footer
 	height: 70px;
 	font-size: 4rem;
 	font-weight: bold;
-  	color: white;
+  	color: #ffff;
   	text-align: center;
   	justify-content: center;
 }
@@ -97,8 +98,8 @@ footer
  {
 	display: none;
 	position: absolute;
-  	background-color: #3a5379; 
-  	color: white;
+  	background-color: darkcyan; 
+  	color: #ffff;
   	min-width: 160px;
   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
   	z-index: 1;

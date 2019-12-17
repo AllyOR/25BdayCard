@@ -1,5 +1,5 @@
 # 25BdayCard
-Bday card
+Birthday card
 
 1. Clone this
 2. Open the archive .html
