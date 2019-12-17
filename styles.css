@@ -36,3 +36,39 @@ footer {
 	text-align: center; 
 	color: white;
 }
+
+
+@media (max-width: 600px) {
+  section {
+  	-webkit-flex-direction: column;
+  	flex-direction: column;
+  	}
+ }
+
+#div2 {
+	-webkit-transition-timing-function: ease;
+}
+
+#div2 {
+	transition-timing-function: ease;
+}
+
+.rig {
+	width: 130px; height: 70px;
+	background: #3a5379;
+	-webkit-transition: width 1s; 
+  	transition: width 1s;
+  	font-size: 1.5rem; 
+  	color: #3a5379;
+}
+
+.rig:hover {
+	width: 700px;
+	height: 70px;
+	font-size: 4rem;
+	font-weight: bold;
+  	color: white;
+  	text-align: center;
+  	justify-content: center;
+}
+
